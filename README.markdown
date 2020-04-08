@@ -28,5 +28,5 @@ The lead spacing for the capacitors is not a strict requirement, since you can a
 
 Render from KiCad:
 
-![Raspbery Pi Zero Mono Audio Output 3D Render](images/raspberry_pi_zero_mono_audio_out-3d_render-crop_for_web.png)
+![Raspbery Pi Zero Mono Audio Output 3D Render](images/raspberry_pi_zero_mono_audio_out-3d_render-crop_for_web-500.png)
 
