@@ -24,5 +24,5 @@ BOM:
 - J1 = PJ302M 3.5mm mono jack
 - J2 = 1x2 pin header (I use right angle)
 
-The lead spacing for the capacitors is not a strict requirement, since you can always bend the leads in or out a bit if you’re close. When shopping for the electrolytic cap, be aware of its size, especially if you’re going to be putting this in a tight space like I am. (I prefer using the .... since it's nice and short. Mouser part #: ...)
+The lead spacing for the capacitors is not a strict requirement, since you can always bend the leads in or out a bit if you’re close. When shopping for the electrolytic cap, be aware of its size, especially if you’re going to be putting this in a tight space like I am. (I prefer using the Panasonic ECE-A1VKS100 since it's nice and short. Mouser part #: 667-ECE-A1VKS100)
 
