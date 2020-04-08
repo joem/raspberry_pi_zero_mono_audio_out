@@ -26,3 +26,7 @@ BOM:
 
 The lead spacing for the capacitors is not a strict requirement, since you can always bend the leads in or out a bit if you’re close. When shopping for the electrolytic cap, be aware of its size, especially if you’re going to be putting this in a tight space like I am. (I prefer using the Panasonic ECE-A1VKS100 since it's nice and short. Mouser part #: 667-ECE-A1VKS100)
 
+Render from KiCad:
+
+![Raspbery Pi Zero Mono Audio Output 3D Render](images/raspberry_pi_zero_mono_audio_out-3d_render-crop_for_web.png)
+

@@ -111,7 +111,7 @@
     (add_net "Net-(J1-PadTN)")
   )
 
-  (module jwm_kicad_footprints_misc:Jack_3.5mm_QingPu_WQP-PJ302M_Horizontal (layer F.Cu) (tedit 5CB4115F) (tstamp 5CBB91AE)
+  (module jwm_kicad_footprints_misc:Jack_3.5mm_QingPu_WQP-PJ302M_Horizontal (layer F.Cu) (tedit 5E8E3E7D) (tstamp 5CBB91AE)
     (at 149.361225 88.301)
     (descr "TRS 3.5mm, horizontal, PCB mount, WQP-PJ302M, (http://www.qingpu-electronics.com/en/products/WQP-PJ302M-57.html)")
     (tags "WQP-PJ302M TRS 3.5mm mono horizontal qingpu jack")
@@ -175,6 +175,11 @@
       (net 4 "Net-(J1-PadTN)"))
     (pad T thru_hole oval (at 7.85 0) (size 1.524 3.302) (drill oval 0.762 2.54) (layers *.Cu *.Mask)
       (net 1 "Net-(C1-Pad2)"))
+    (model ${KICAD_USER_3DMODEL_DIR}/jwm_kicad_3dmodels_misc.3dshapes/QingPu_WQP-PJ302M.wrl
+      (offset (xyz -8 -5 0.05))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5CBB91F2)
