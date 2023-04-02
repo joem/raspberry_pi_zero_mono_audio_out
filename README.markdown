@@ -1,7 +1,7 @@
 Raspberry Pi Zero Mono Audio Output
 ===================================
 
-_[NOTE: This board hasn’t been tested yet. It’s simple enough that I’m fairly certain it’s OK, but in case it’s not, this is why. After I test it, I’ll remove this note.]_
+> :warning: _NOTE: This board hasn’t been tested yet. It’s simple enough that I’m fairly certain it’s OK, but in case it’s not, this is why. After I test it, I’ll remove this note._
 
 There are already some other RPi Zero (or Zero W) audio output pcbs available, but this one was designed specifically with several goals in mind:
 
@@ -14,6 +14,8 @@ There are already some other RPi Zero (or Zero W) audio output pcbs available, b
 It’s based on [a circuit from tinkernut](http://www.tinkernut.com/2017/04/adding-audio-output-raspberry-pi-zero-tinkernut-workbench/) though I’m not sure if they originated it (it’s just a passive filter, after all). See that tinkernut page for more info about setting up the RPi to work with it. And if that page ever disappears, feel free to google for something like “rpi zero pwm audio” since there are many articles about how to set that up. I used through-hole components because I didn’t have all the right parts in SMD and it's small enough for my needs. There are no mounting holes because it’s intended to be panel-mounted via the jack.
 
 This was designed as a KiCad project, but if you want to fabricate a PCB you don't need KiCad since the gerbers are in the gerbers folder. Also, there's a PDF schematic in the pdfs directory. And if you just want to order PCBs, [there's an OSHPark project](https://oshpark.com/shared_projects/ILTMx6KX).
+
+Opening the KiCad project requires KiCad 6 at a minimum. I've removed the old KiCad 5 files.
 
 BOM:
 
